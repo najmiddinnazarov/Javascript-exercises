@@ -1,3 +1,21 @@
+// Binary representation
+
+// function binary(i, dividedNumber) {
+//   let result = "";
+//   while (i >= 1) {
+//     let res = i / dividedNumber;
+//     i % dividedNumber === 0 ? (result += 0) : (result += 1);
+//     i = parseInt(res);
+//   }
+
+//   let reverseResult = "";
+//   for (let k = result.length - 1; k >= 0; k--) {
+//     reverseResult += result[k];
+//   }
+//   return reverseResult;
+// }
+// console.log(binary(101, 2));
+
 // ================= //
 
 // for (let i = 0; i < 3; i++) {
