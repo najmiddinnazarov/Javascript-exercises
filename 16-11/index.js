@@ -38,3 +38,13 @@
 // }
 
 // a degan o'zgaruvchimizga biron bir raqam kiritganimizda. Tepadan pastga qarab if larni yurib chiqadi va qaysi if ga bizni number imiz to'g'ri kelsa o'sha if dagi code ni console ga chiqaradi. Va qolgan if larni ham baribir o'qib chiqadi. Chunki alohida 3 ta if blocki ochilgan.
+
+// ============= =================== //
+
+let n = 100;
+inner: for (let i = 2; i <= n; i++) {
+  for (let j = 2; j < i; j++) {
+    if (i % j == 0) continue inner;
+  }
+  console.log(i);
+}
