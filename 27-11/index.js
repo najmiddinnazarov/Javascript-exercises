@@ -8,6 +8,7 @@
 // let user = makeUser();
 
 // console.log(user.ref.name); // What's the result?
+// ref ga tegishli this bu window qaytarayapdi va windowni ichidan name ni value si yo'q bo'lganligi uchun undefined qaytarayapdi.
 
 // let calculator = {
 //   sum() {
