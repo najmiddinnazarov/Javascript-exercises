@@ -1,7 +1,5 @@
 // Numbers
 
-// console.log(check("Webbrain academy", "Webbrain academy"));
-
 // const result = Math.max(1, 3, 4, 5, 6) - Math.min(1, 3, 4, 5, 6);
 // console.log(result);
 
