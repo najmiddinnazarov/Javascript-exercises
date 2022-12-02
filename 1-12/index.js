@@ -70,6 +70,11 @@ let users = [
 // console.log(users);
 
 // Object value larini tartiblash
-// for (const iterator of users) {
-//   let sorted = Object.entries(iterator).sort((a, b) => a[1] - b[1]);
-// } // Error
+// users.sort((a, b) => a.engine - b.engine);
+// console.log(users);
+
+// users.sort((a, b) => a.year - b.year);
+// console.log(users);
+
+// users.sort((a, b) => a.name.localeCompare(b.name));
+// console.log(users);
