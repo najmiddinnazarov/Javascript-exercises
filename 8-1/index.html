@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .kvadrat {
+        width: 500px;
+        height: 400px;
+        background-color: limegreen;
+        border: 13px solid #000;
+        box-sizing: border-box;
+        margin: 0 auto;
+        position: relative;
+        transition: all 0.5s ease-in;
+        cursor: pointer;
+      }
+      .kvadrat img {
+        transition: all 0.5s ease-in;
+        position: absolute;
+      }
+      .menu {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+      }
+      .menu-flex {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        gap: 2px;
+      }
+      .menu-img img {
+        width: 20px;
+        transition: all 0.3s ease-in;
+      }
+      ul {
+        list-style-type: none;
+        margin-top: 0;
+        padding: 0 0 0 3px;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+      }
+      .wrapper {
+        width: 600px;
+        margin: 0 auto;
+      }
+      .card {
+        border-top: 1px solid darkgreen;
+        border-bottom: 1px solid darkgreen;
+        background-color: lightyellow;
+        padding: 15px;
+        font-family: sans-serif;
+        position: relative;
+      }
+      .card-close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+        color: red;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      .card-body {
+        margin-top: 8px;
+      }
+      .card-title {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .card-text {
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- No1 -->
+    <div class="kvadrat">
+      <img src="./ball.svg" alt="ball" />
+    </div>
+
+    <!-- No2 -->
+    <div class="menu">
+      <div class="menu-flex">
+        <div class="menu-img"><img src="./arrow.png" alt="arrow" /></div>
+        <div class="menu-title">Sweeties (click me)!</div>
+      </div>
+      <ul>
+        <li>Cake</li>
+        <li>Donut</li>
+        <li>Honey</li>
+      </ul>
+    </div>
+
+    <!-- No3 -->
+    <div class="wrapper">
+      <div class="card">
+        <div class="card-close">[X]</div>
+        <div class="card-body">
+          <div class="card-title">Horse</div>
+          <div class="card-text">
+            The horse is one of two extant subspecies of Equus ferus. It is an
+            odd-toed ungulate mammal belonging to the taxonomic family Equidae.
+            The horse has evolved over the past 45 to 55 million years from a
+            small multi-toed creature, Eohippus, into the large, single-toed
+            animal of today.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-close">[X]</div>
+        <div class="card-body">
+          <div class="card-title">Donkey</div>
+          <div class="card-text">
+            The donkey or ass (Equus africanus asinus) is a domesticated member
+            of the horse family, Equidae. The wild ancestor of the donkey is the
+            African wild ass, E. africanus. The donkey has been used as a
+            working animal for at least 5000 years.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-close">[X]</div>
+        <div class="card-body">
+          <div class="card-title">Cat</div>
+          <div class="card-text">
+            The domestic cat (Latin: Felis catus) is a small, typically furry,
+            carnivorous mammal. They are often called house cats when kept as
+            indoor pets or simply cats when there is no need to distinguish them
+            from other felids and felines. Cats are often valued by humans for
+            companionship and for their ability to hunt vermin.
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
